@@ -14,7 +14,7 @@
 
 
 @section('contenido')
-<a href="estudiantes"><button type="submit">Regrasar</button></a>
+<a href="estudiantes"><button type="submit">Regresar</button></a>
 
 <div class="container">
 
@@ -27,8 +27,8 @@
         @error('name_student')
             <div>{{$message}}</div>
         @enderror
-        <input type="text" name="lastname_student" placeholder="Apellido"/>
-        @error('lastname_student')
+        <input type="text" name="lastame_student" placeholder="Apellido"/>
+        @error('lastame_student')
             <div>{{$message}}</div>
         @enderror
         <input type="number" name="id_student" placeholder="Matricula"/>

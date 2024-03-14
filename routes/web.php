@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 // use App\Http\Controllers\Student\StudentController;
 use App\Http\Controllers\StudentController;
+use App\Http\Controllers\studentReportscontroller;
 // use Illuminate\Support\Facades\Route;
 
 /*
@@ -48,6 +49,7 @@ require __DIR__.'/auth.php';
     Route::get('/denegado', function () {
         return view('denegado');
     })->name('denegado'); 
+    Route::get('reportes/{estudiantes}',[studentReportscontroller::class,'show_cardex'])->name('reportes.imprimir');
     
 
 

@@ -100,9 +100,9 @@
             <p class="error-message">{{ $message }}</p>
         @enderror
 
-        <label for="lastname_student">Apellido:</label>
-        <input type="text" name="lastname_student" value="{{ $student->lastname_student }}">
-        @error('lastname_student')
+        <label for="lastame_student">Apellido:</label>
+        <input type="text" name="lastame_student" value="{{ $student->lastame_student }}">
+        @error('lastame_student')
             <p class="error-message">{{ $message }}</p>
         @enderror
 

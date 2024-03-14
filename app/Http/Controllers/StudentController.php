@@ -35,7 +35,7 @@ class StudentController extends Controller
     {
         $student = new Student;
         $student->name_student = $request->name_student;
-        $student->lastname_student = $request->lastname_student;
+        $student->lastame_student = $request->lastame_student;
         $student->id_student = $request->id_student;
         $student->birthday = $request->birthday;
         $student->comments = $request->comments;

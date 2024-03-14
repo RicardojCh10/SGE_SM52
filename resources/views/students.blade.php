@@ -107,7 +107,7 @@
             <tr>
                 <td>{{$student->id_student}}</td>
                 <td>{{$student->name_student}}</td>
-                <td>{{$student->lastname_student}}</td>
+                <td>{{$student->lastame_student}}</td>
                 <!-- Utiliza íconos de FontAwesome con tamaño más grande -->
                 <td><a href="{{route('estudiantes.show', $student->id)}}" class="icon-link"><i class="fas fa-eye icon-large"></i></a></td>
                 <td><a href="{{route('estudiantes.edit', $student->id)}}" class="icon-link"><i class="fas fa-edit icon-large"></i></a></td>

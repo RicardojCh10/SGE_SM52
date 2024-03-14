@@ -92,7 +92,7 @@
         </p>
         
         <p>
-            Apellido del Estudiante: {{$student->lastname_student}}
+            Apellido del Estudiante: {{$student->lastame_student}}
         </p>
     </div>
 
