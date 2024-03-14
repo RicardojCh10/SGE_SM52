@@ -6,6 +6,8 @@
     <title></title>
 </head>
 <body>
-    <h1> Cardex Del Estudiante</h1>
+    <h1> {{$title}}</h1>
+    <img src="{{public_path('images/Fang_Skin-Furious.webp')}}"/>
+    <p> Nombre Del Estudiante: <b>{{$details->name_student}} </b></p> 
 </body>
 </html>
